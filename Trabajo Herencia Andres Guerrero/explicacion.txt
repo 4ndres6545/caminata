@@ -1,0 +1,49 @@
+# Herencia, Polimorfismo y Encapsulamiento en JavaScript
+
+## Descripción
+
+Este proyecto corresponde a la Actividad Investigativa sobre Herencia, Polimorfismo y Encapsulamiento en JavaScript.
+
+El objetivo del proyecto es demostrar de manera sencilla cómo se aplican estos tres conceptos de la Programación Orientada a Objetos mediante un ejemplo de animales.
+
+## Conceptos utilizados
+
+### Herencia
+Se utiliza la clase `Animal` como clase padre y las clases `Perro` y `Gato` como clases hijas.
+
+Las clases hijas utilizan `extends` para heredar de la clase `Animal` y `super()` para utilizar el constructor de la clase padre.
+
+### Polimorfismo
+El método `hacerSonido()` demuestra el polimorfismo.
+
+El método tiene el mismo nombre en las clases `Perro` y `Gato`, pero cada una presenta un comportamiento diferente:
+
+- Perro: "Guau guau"
+- Gato: "Miau miau"
+
+### Encapsulamiento
+La clase `Animal` utiliza la propiedad privada `#nombre`.
+
+Esta propiedad no puede ser modificada directamente desde fuera de la clase. Para consultar y modificar el nombre se utilizan métodos controlados.
+
+## Archivos del proyecto
+
+- `herencia.html`: archivo HTML que permite ejecutar el proyecto en el navegador.
+- `herencia.js`: contiene las clases, métodos y objetos utilizados en el ejercicio.
+
+## Funcionamiento
+
+Al ejecutar el proyecto se crean dos objetos:
+
+- Un perro llamado Max.
+- Un gato llamado Michi.
+
+El programa muestra sus nombres y los sonidos correspondientes. También se modifica el nombre del perro para demostrar el uso de un método que permite modificar de manera controlada la propiedad privada.
+
+## Autor
+
+Andres David Guerrero
+
+Tecnólogo en Análisis y Desarrollo de Software
+
+SENA - CTPI Popayán
